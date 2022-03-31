@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos window.onload e $(document).ready()</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+</head>
+<body>
+    <div id="lipsum">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis numquam qui, velit vero voluptate doloremque quibusdam officiis magni aspernatur debitis quos sequi, harum praesentium quas cum ad. In, recusandae officia.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa quos quibusdam assumenda quasi, repudiandae modi asperiores veniam quaerat at, porro cupiditate, ducimus facere et eum odit quisquam odio consequuntur neque.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut illo, consequatur atque vitae rerum nam recusandae ipsa illum sint mollitia! Cupiditate rerum aliquid ullam consequuntur error commodi id molestiae fugit!</p>
+        <img src="https://picsum.photos/id/0/367/367" alt="1">
+        <img src="https://picsum.photos/id/0/367/367" alt="2">
+        <img src="https://picsum.photos/id/0/367/367" alt="3">
+        <img src="https://picsum.photos/id/0/367/367" alt="4">
+        <img src="https://picsum.photos/id/0/367/367" alt="5">
+    </div>
+
+    <script type="text/javascript">
+        window.onload = () => {
+            alert('Evento window.load disparad');
+        }
+
+        $(() => {
+            // $('div p').before('<h1>Lorem Ipsum</h1>')
+            alert('Evento document.ready disparado');
+        })
+    </script>
+</body>
+</html>
