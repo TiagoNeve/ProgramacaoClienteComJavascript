@@ -11,3 +11,12 @@
 7<!-- Versão slim, com compactação/minimificação -->
 8<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 ```
+> Respostas da avaliação:
+1 - $('body').before('<h1>Título inicial</h1>').</p>
+2 - $('p').html('').
+
+## Módulo 3
+
+- Fire/fired -> Momento em que um evento é "disparado"
+- Listener -> Ato de "Ouvir", monitorar, um elemento à espera do disparo de um evento
+- handler -> Associado à ação de manipular determinado evento
