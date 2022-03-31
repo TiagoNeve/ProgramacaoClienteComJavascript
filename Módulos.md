@@ -20,3 +20,10 @@
 - Fire/fired -> Momento em que um evento é "disparado"
 - Listener -> Ato de "Ouvir", monitorar, um elemento à espera do disparo de um evento
 - handler -> Associado à ação de manipular determinado evento
+
+> Respostas da avaliação:
+1 - $(document).ready()
+2 - link_alerta/ on/ click/ event.
+
+## Módulo 4
+
